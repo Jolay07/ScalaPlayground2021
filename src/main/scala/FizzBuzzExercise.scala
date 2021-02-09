@@ -5,6 +5,15 @@ object FizzBuzzExercise extends App {
   //if divides by 5 print Fizz
   //if divides by 7 print Buzz
   //otherwise we print the number itself
+  for (n <- 1 to 100) {
+    if (n % 5 == 0 && n % 7 == 0)
+      println("FizzBuzz")
+    else if (n % 5 == 0)
+      println("Fizz")
+    else if (n % 7 == 0)
+      println("Buzz")
+    else (println(n))
+  }
 
   //so this exercise tests your ability to write conditionals and also to write a simple loop
 
